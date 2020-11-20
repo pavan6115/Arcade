@@ -1,0 +1,75 @@
+body {
+    background-color: #d7f2f5;
+    font-family: 'Nunito', sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#mainNavbar .nav-link {
+    color: black
+}
+
+#mainNavbar .nav-link:hover {
+    color: #1c8dea
+}
+
+#mainNavbar .navbar-brand {
+    color: black;
+    font-size: 2rem;
+}
+
+.navbar.scrolled {
+    background: rgb(141, 215, 233);
+    transition: background 500ms;
+}
+@media (max-width: 1400px) {
+    #headingroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    
+}
+
+.size {
+    display:flex;
+}
+
+.card {
+    margin: 10rem 4rem;
+    width: 35rem;
+    border-radius: 20px;
+}
+
+.order {
+    width: 30rem;
+    height: 30rem;
+}
+
+.custom {
+    background: none;
+    color: #fca311;
+    border: 2px solid;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    transition: all 0.2s;
+}
+
+.custom:hover {
+    border-color: #e63946;
+    color: #e63946;
+    box-shadow: 0 0.6em 0.5em -0.4em #e63946;
+    transform: translateY(-0.5em);
+    cursor: pointer;
+}
+
+.git {
+    margin-right: 1rem;
+}
+
+.fix {
+    margin: -2rem 22rem;
+}
+
